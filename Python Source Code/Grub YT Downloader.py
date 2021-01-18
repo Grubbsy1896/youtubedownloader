@@ -1,4 +1,9 @@
-# Pytube Test
+# This program was made on Monday January 18th 2021 at 5:30pm
+# It's purpose was to make a youtube video downloader as 
+# a website I used to do the same thing attempted to give me a virus.
+# I made this open source so others could see it's not nefarious in any way. 
+#
+# Thanks for reading this if you do. 
 
 from pytube import YouTube
 import os 
