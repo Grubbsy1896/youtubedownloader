@@ -7,11 +7,7 @@ This program is a simple python script to allow the users to download youtube fi
 - You can also leave those 2 things blank and let it run on it's own.
 
 
-![alt text](https://imgur.com/w9tSC8O.png)
-
-
-![alt text](https://imgur.com/4LHvaVk.png)
-
+![alt text](https://imgur.com/MKZZzkv.png)
 
 Credit to 
 https://github.com/brentvollebregt/auto-py-to-exe
