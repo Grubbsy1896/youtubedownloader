@@ -1,9 +1,4 @@
-# This program was made on Monday January 18th 2021 at 5:30pm
-# It's purpose was to make a youtube video downloader as 
-# a website I used to do the same thing attempted to give me a virus.
-# I made this open source so others could see it's not nefarious in any way. 
-#
-# Thanks for reading this if you do. 
+# This program was created 
 
 from pytube import YouTube
 import os 
@@ -12,17 +7,19 @@ from pathlib import Path
 
 from tkinter import * 
 from tkinter.ttk import *
-
-default_path = f"{str(os.path.splitext(Path(__file__).absolute())[0])[:-4]}\downloads"
-
+import tkinter as tk
+default_path = f"{os.path.dirname(str(os.path.splitext(Path(__file__).absolute())[0]))}\downloads"
+normal_path = f"{os.path.dirname(str(os.path.splitext(Path(__file__).absolute())[0]))}"
 # Defining for Tkinter
 # --------------------
 master = Tk() 
-master.geometry("500x500") 
+master.geometry("500x300") 
+#master.iconbitmap(f"{normal_path}\icon.ico")
+master.title("Grub YouTube Downloader")
 
 # This is simply a function to help keep it sorted away.
 def creating_ui():
-    default_path = f"{str(os.path.splitext(Path(__file__).absolute())[0])[:-4]}\downloads"
+    default_path = f"{os.path.dirname(str(os.path.splitext(Path(__file__).absolute())[0]))}\downloads"
 
     label = Label(master,  
                 text ="Youtube Video Downloader | V1 \n\n") 
