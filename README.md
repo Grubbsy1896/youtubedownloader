@@ -1,6 +1,6 @@
 
 # Grubbsy's Youtube Downloader App | Windows Only!
-
+## This script uses windows only features. A version will be made to work better with other Operaing Systems soon.
 This program is a simple python script to allow the users to download youtube files from youtube.
 - You can specify it's directory or just do it from where the file is run.
 - You can name the file before you download it. 
